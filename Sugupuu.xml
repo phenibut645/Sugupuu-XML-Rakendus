@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<inimene saasta="1968">
+	<nimi>Larissa</nimi>
+	<elukoht>Estonia</elukoht>
+	<sundinud>Russia</sundinud>
+	<lapsed>
+		<inimene saasta="1991">
+		<nimi>Aleksei</nimi>
+		<elukoht>Estonia</elukoht>
+		<sundinud>Estonia</sundinud>
+		<lapsed>
+			<inimene saasta="2024">
+				<nimi>Mathew</nimi>
+				<elukoht>Thailand</elukoht>
+				<sundinud>Estonia</sundinud>
+			</inimene>
+			<inimene saasta="2009">
+				<nimi>Champoo</nimi>
+				<elukoht>Thailand</elukoht>
+				<sundinud>Thailand</sundinud>
+			</inimene>
+		</lapsed>
+		</inimene>
+		<inimene saasta="1993">
+			<nimi>Anastassija</nimi>
+			<elukoht>Estonia</elukoht>
+			<sundinud>Estonia</sundinud>
+			<lapsed>
+				<inimene saasta="2007">
+					<nimi>Aleksander</nimi>
+					<elukoht>Estonia</elukoht>
+					<sundinud>Estonia</sundinud>
+				</inimene>
+			</lapsed>
+		</inimene>
+	</lapsed>
+</inimene>
