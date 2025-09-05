@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:msxsl="urn:schemas-microsoft-com:xslt" exclude-result-prefixes="msxsl"
 >
@@ -35,9 +35,16 @@
 			<tbody>
 				<xsl:for-each select="//inimene">
 					<tr>
-						<td>
-							<xsl:value-of select="../../nimi"/>
-						</td>
+						<xsl:if test="starts-with(../../nimi, 'A')">
+							<td style="background-color:purple; color:white">
+								<xsl:value-of select="../../nimi"/>
+							</td>
+						</xsl:if>
+						<xsl:if test="starts-with(../../nimi, 'A') = false">
+							<td>
+								<xsl:value-of select="../../nimi"/>
+							</td>
+						</xsl:if>
 						<td>
 							<xsl:value-of select="@saasta"/>
 						</td>
